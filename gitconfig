@@ -4,6 +4,8 @@
 [user]
 	name = Paul Sanwald
 	email = CHANGEME 
+[github]
+    user = pcsanwald
 [color]
     ui = auto
 [alias]
