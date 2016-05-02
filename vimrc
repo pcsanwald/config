@@ -5,8 +5,8 @@ set wildchar=<TAB>
 set expandtab
 call pathogen#infect()
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set autoindent
 set smarttab
 set shiftround
@@ -19,6 +19,5 @@ set vb
 set viminfo+=!
 syntax on
 set background=dark
-colorscheme solarized
 set nobackup
-
+let g:syntastic_javascript_checkers = ['eslint']
