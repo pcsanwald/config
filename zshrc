@@ -10,6 +10,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+alias vi="vim"
 NODEJS_ROOT="/Users/paul/Software/bin/node/current"
 export PATH="/usr/local/sbin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin"
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
