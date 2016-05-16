@@ -7,6 +7,7 @@ call pathogen#infect()
 filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
+autocmd FileType python setlocal shiftwidth=2 tabstop=2
 set autoindent
 set smarttab
 set shiftround
